@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đăng Ký</title>
+</head>
+<style>
+    input[type=text] {
+        background-color: lightgray;
+    }
+
+    input[type=password] {
+        background-color: lightgray;
+    }
+
+    input[type=button] {
+        background-color: green;
+        color: white;
+    }
+
+    table {
+        background-color: white;
+        margin-inline: auto;
+        width: 65%;
+        height: 90%;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    form {
+        margin-inline: auto;
+        background-color: lightgreen;
+        width: 700px;
+        height: 350px;
+        padding: 2%;
+    }
+
+</style>
+<body>
+
+<form method="get">
+    <table>
+        <tr>
+            <th><input type="text" placeholder="username" name="username" style="width: 300px;height: 50px"></th>
+        </tr>
+        <tr>
+            <th><input type="password" placeholder="password" name="password" style="width: 300px;height: 50px"></th>
+        </tr>
+        <tr>
+            <th><input type="button" value="LOGIN" style="width: 310px;height: 50px"></th>
+        </tr>
+
+        <tr>
+            <th><p>Not registered? <a
+                    href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp">Creat
+                an account</a></p></th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
