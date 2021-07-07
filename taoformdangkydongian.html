@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dang ky hoc vien</title>
+</head>
+<style>
+  td,th{
+    color: blue;
+    text-align: left;
+  }
+</style>
+<body>
+<table style="background-color: yellow">
+  <th style="background-color: aqua"; colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+  <tr>
+  <td>Họ và tên</td>
+    <td>  <input type="text" name="yourname"></td>
+    <tr>
+  <td>Ngày sinh</td>
+  <td>  <input type="text" name="ngaysinh"></td>
+  <tr>
+  <tr>
+  <td>Giới tính</td>
+  <td style="color: black">  <input type="radio" name="gioitinh" value="Nam">Nam
+    <input type="radio" name="gioitinh" value="Nữ">Nữ</td>
+  </tr>
+  <tr>
+    <td style="padding-bottom: 30px">Địa chỉ</td>
+    <td> <textarea name="diachi" cols="20" rows="3"></textarea></td>
+    <tr>
+  <td>Lớp</td>
+  <td>
+    <select name="lop">
+      <option value="chonlop">-Chọn lớp-</option>
+      <option value="lop1">Lớp 1</option>
+      <option value="lop2">Lớp 2</option>
+      <option value="lop3">Lớp 3</option>
+    </select>
+  </td>
+</tr>
+  <tr>
+  <td>Email</td>
+   <td> <input type="text" name="email"></td>
+  </tr>
+  <tr>
+  <td>Điện thoại</td>
+   <td> <input type="text" name="dienthoai"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <input type="submit" value="Đăng kí">
+      <input type="reset" value="Nhập lại">
+    </td>
+  </tr>
+</table>
+</body>
+</html>
