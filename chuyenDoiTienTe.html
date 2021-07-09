@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change</title>
+    <style>
+        table {
+            width: 600px;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<form>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" name="input" id="amount"></td>
+        <td><select id="from" style="width: 120px">
+            <option value="vietnam">VietNam</option>
+            <option value="usd">USD</option>
+        </select></td>
+        <td><select id="to" style="width: 100px">
+            <option value="usd">USD</option>
+            <option value="vietnam">VietNam</option>
+        </select></td>
+        <td>
+            <button type="button" style="background-color: plum;color: white" onclick="convert()">Convert</button>
+        </td>
+    </tr>
+</table>
+    <p style=" color: blue;">Result: <a id="print"></a></p>
+</form>
+<script src="chuyenDoiTienTe.js">
+</script>
+</body>
+</html>
